@@ -193,6 +193,7 @@ function StoreInput(day, input){
     notifiedElements.push(dayData);
     localStorage.setItem(monthIndex, JSON.stringify(notifiedElements));
 
+    notifiedElementsInput = JSON.parse(localStorage.getItem(`${monthIndex + " input"}`));
     if(notifiedElementsInput == null){
         notifiedElementsInput = [];
     }
