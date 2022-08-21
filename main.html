@@ -5,36 +5,27 @@
         <meta name="viewport" width="device-width", initial-scale="1.0">
         <title>Practice - 0</title>
         <link rel="stylesheet" href="design.css" >
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
     
     </head>
-    <body>
-        <div class="container login-box">
-            <span class="logo">
-                <img width="50" height="50" src="https://www.seekpng.com/png/full/473-4733117_fly-bird-logo-png.png">
-            </span>
-            <form class="grid" id="login-form">
-                <span>
-                    <label for="email">Email:</label>
-                </span>
-                <span>
-                    <input type="email" placeholder="Enter your E-mail">
-                </span>
-                <span>
-                    <label for="password">Password:</label>
-                </span>
-                <span>
-                    <input type="password" placeholder="Enter your Password">
-                </span>
-                <span class="grid-ignore" onclick="toggleCheckbox()">
-                    <span><input type="checkbox" id="checkbox"></span>
-                    <span><label for="remember">Remember me?</label></span>
-                </span>
-                <span>
-                    <button>Log In</button>
-                </span>
-            </form>
+    <body onload="CreateCalendar()">
+        <div class="header">
+            <div class="navbar">
+                <div>
+                    Home
+                </div>
+                <div class="img">
+                    <img width="30px" src="https://smithstonewalters.com/wp-content/uploads/2015/08/icon-calendar-green.png">
+                </div>
+                <div>
+                    Calendar
+                </div>
+            </div>
+        </div>
+        <div class="calender-container">
         </div>
         <script src="script.js"></script>
     </body>
-    
 </html>
